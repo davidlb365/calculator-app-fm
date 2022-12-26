@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h3 class="header__title">calc</h3>
+            <div class="header__right">
+                <p class="header__text">theme</p>
+                <div class="header__box">
+                    <div class="header__numbers">
+                        <p class="header__number">1</p>
+                        <p class="header__number">2</p>
+                        <p class="header__number">3</p>
+                    </div>
+                    <div class="header__toggles">
+                        <button class="header__toggle" id="toggle-first" type="button"></button>
+                        <button class="header__toggle" id="toggle-second" type="button"></button>
+                        <button class="header__toggle" id="toggle-third" type="button"></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <p class="result" id="result">0</p>
+        <div class="grid">
+            <button class="grid__button" type="button">7</button>
+            <button class="grid__button" type="button">8</button>
+            <button class="grid__button" type="button">9</button>
+            <button class="grid__button" type="button">del</button>
+            <button class="grid__button" type="button">4</button>
+            <button class="grid__button" type="button">5</button>
+            <button class="grid__button" type="button">6</button>
+            <button class="grid__button" type="button">+</button>
+            <button class="grid__button" type="button">1</button>
+            <button class="grid__button" type="button">2</button>
+            <button class="grid__button" type="button">3</button>
+            <button class="grid__button" type="button">-</button>
+            <button class="grid__button" type="button">.</button>
+            <button class="grid__button" type="button">0</button>
+            <button class="grid__button" type="button">/</button>
+            <button class="grid__button" type="button">x</button>
+            <button class="grid__button" type="button">reset</button>
+            <button class="grid__button" type="button">=</button>
+        </div>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
