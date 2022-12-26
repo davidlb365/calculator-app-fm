@@ -288,7 +288,6 @@ main {
     .header__toggles {
         width: 3.9rem;
         height: 1.2rem;
-        /* padding-inline: .3rem; */
     }
     
     .header__toggle {
